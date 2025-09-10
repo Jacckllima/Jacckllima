@@ -1,9 +1,8 @@
 # Olá, Eu sou @Jackllima! 👋
 
-🎥 Criadora de conteúdo no TikTok, apaixonada por compartilhar momentos divertidos e inspiradores!  
 📚 Amante da leitura e sempre à procura de novas histórias e livros impactantes.  
 🎬 Sou fã de séries e adoro maratonar os melhores títulos nos meus momentos livres.  
-🎓 Atualmente, estou cursando faculdade e equilibrando estudos com minhas paixões criativas.
+🎓 Atualmente, estou cursando faculdade de Engenharia de Software e equilibrando estudos com minhas paixões criativas.
 
 
 ## Sobre mim
