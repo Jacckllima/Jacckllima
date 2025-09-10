@@ -23,4 +23,5 @@
 
 - 📚 Adoro indicar livros e compartilhar trechos impactantes!
 - 🎥 Criadora de conteúdo em ascensão, compartilhando dicas de leitura e desenvolvimento pessoal.
+- 💻 Estudante de Engenharia de Software, explorando programação e desenvolvimento web.
 
