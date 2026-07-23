@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header-banner.svg" alt="Jaqueline Lima Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Jacckllima/Jacckllima/main/header-banner.svg" alt="Jaqueline Lima Banner" width="100%"/>
 </div>
 
 <br/>
@@ -57,12 +57,12 @@ Atualmente participo da formação técnica da **Alpha EdTech**, consolidando co
 ### 📈 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jacckllima&show_icons=true&theme=radial&bg_color=06060c&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="General Stats" height="150" style="margin: 5px;"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jacckllima&layout=compact&theme=radial&bg_color=06060c&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="Top Languages" height="150" style="margin: 5px;"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jacckllima&show_icons=true&theme=radial&bg_color=090a0f&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="General Stats" height="150" style="margin: 5px;"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacckllima&layout=compact&theme=radial&bg_color=090a0f&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="Top Languages" height="150" style="margin: 5px;"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jacckllima&theme=radial&background=06060c&ring=ff00aa&fire=ff00aa&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8833ff&sideLabels=8833ff&dates=a0a0c0&border=8833ff" alt="GitHub Streak" height="150" style="margin: 5px;"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jacckllima&theme=radial&background=090a0f&ring=ff00aa&fire=ff00aa&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8833ff&sideLabels=8833ff&dates=a0a0c0&border=8833ff" alt="GitHub Streak" height="150" style="margin: 5px;"/>
 </div>
 
 ---
@@ -107,5 +107,5 @@ Atualmente participo da formação técnica da **Alpha EdTech**, consolidando co
 <br/>
 
 <div align="center">
-  <sub>Desenvolvido com 💜 por Jaqueline Lima e Antigravity AI.</sub>
+  <sub>Desenvolvido com 💜 por Jaqueline Lima.</sub>
 </div>
