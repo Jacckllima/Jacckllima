@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250" style="background: #06060c; font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040408" />
+      <stop offset="50%" stop-color="#0c071d" />
+      <stop offset="100%" stop-color="#05030a" />
+    </linearGradient>
+
+    <!-- Neon Text Gradients -->
+    <linearGradient id="textPinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff00aa" />
+      <stop offset="100%" stop-color="#ff77dd" />
+    </linearGradient>
+    <linearGradient id="textVioletGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8833ff" />
+      <stop offset="100%" stop-color="#00d2ff" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Glow for decorative elements -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(136, 51, 255, 0.07)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.15; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.1); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(1deg); }
+    }
+    @keyframes textShine {
+      0% { fill-opacity: 0.9; }
+      50% { fill-opacity: 1; }
+      100% { fill-opacity: 0.9; }
+    }
+    @keyframes scrollGrid {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(40px); }
+    }
+    
+    .bg-grid {
+      animation: scrollGrid 8s linear infinite;
+    }
+    .neon-orb-1 {
+      animation: pulseGlow 6s ease-in-out infinite;
+      transform-origin: 200px 80px;
+    }
+    .neon-orb-2 {
+      animation: pulseGlow 8s ease-in-out infinite;
+      transform-origin: 650px 180px;
+    }
+    .main-title {
+      font-weight: 800;
+      font-size: 42px;
+      letter-spacing: 2px;
+      animation: textShine 3s ease-in-out infinite;
+    }
+    .subtitle {
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 4px;
+      fill: #a0a0c0;
+    }
+    .bracket {
+      font-weight: 800;
+      font-size: 48px;
+      fill: #8833ff;
+      filter: url(#glow);
+    }
+    .tag {
+      font-family: monospace;
+      font-size: 13px;
+      fill: #ff00aa;
+      letter-spacing: 1px;
+    }
+    .interactive-element {
+      animation: float 5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="250" fill="url(#bgGrad)" />
+
+  <!-- Animated Grid (with clipping container to keep within borders) -->
+  <g clip-path="url(#rectClip)">
+    <rect width="800" height="300" fill="url(#grid)" class="bg-grid" y="-40" />
+  </g>
+
+  <!-- Glowing Orbs (Cyberpunk atmosphere) -->
+  <circle cx="150" cy="60" r="100" fill="#8833ff" opacity="0.15" filter="url(#softGlow)" class="neon-orb-1" />
+  <circle cx="650" cy="180" r="120" fill="#ff00aa" opacity="0.15" filter="url(#softGlow)" class="neon-orb-2" />
+
+  <!-- Decorative Tech Elements -->
+  <!-- Circuit/Grid Lines -->
+  <path d="M 0,20 L 150,20 L 180,50 M 800,230 L 650,230 L 620,200" stroke="rgba(255, 0, 170, 0.15)" stroke-width="1.5" fill="none" />
+  <circle cx="180" cy="50" r="3" fill="#ff00aa" />
+  <circle cx="620" cy="200" r="3" fill="#8833ff" />
+
+  <!-- Main Branding Content Group -->
+  <g transform="translate(100, 100)" class="interactive-element">
+    <!-- Code Brackets -->
+    <text x="-40" y="32" class="bracket">&lt;</text>
+    
+    <!-- Title -->
+    <text x="0" y="20" class="main-title" fill="url(#textPinkGrad)">JAQUELINE LIMA</text>
+    
+    <!-- Subtitle / Tagline -->
+    <text x="2" y="55" class="subtitle">ENGENHARIA DE SOFTWARE</text>
+    
+    <!-- Decorative tag -->
+    <text x="3" y="-12" class="tag">&lt;dev_fullstack&gt;</text>
+    
+    <text x="560" y="32" class="bracket">&gt;</text>
+  </g>
+
+  <!-- Floating particles/code nodes -->
+  <g opacity="0.5">
+    <circle cx="720" cy="60" r="4" fill="#8833ff" filter="url(#glow)" />
+    <line x1="720" y1="60" x2="720" y2="100" stroke="rgba(136, 51, 255, 0.3)" stroke-width="1" />
+    <circle cx="720" cy="100" r="2" fill="#ff00aa" />
+    
+    <circle cx="60" cy="190" r="3" fill="#ff00aa" filter="url(#glow)" />
+    <line x1="60" y1="190" x2="100" y2="190" stroke="rgba(255, 0, 170, 0.3)" stroke-width="1" />
+    <circle cx="100" cy="190" r="1.5" fill="#8833ff" />
+  </g>
+</svg>
