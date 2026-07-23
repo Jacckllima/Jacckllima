@@ -37,13 +37,13 @@
     <text x="0" y="0" font-size="44" font-weight="800" fill="url(#textGrad)" letter-spacing="1.5px">JAQUELINE LIMA</text>
     
     <!-- Subtitle -->
-    <text x="3" y="35" font-size="15" font-weight="400" fill="#ff00aa" letter-spacing="4px">ENGENHARIA DE SOFTWARE &bull; DEV FULL STACK</text>
+    <text x="3" y="35" font-size="15" font-weight="400" fill="#ff00aa" letter-spacing="4px">ENGENHARIA DE SOFTWARE • DEV FULL STACK</text>
   </g>
 
-  <!-- Tech tags displayed as a subtle border element -->
+  <!-- Clean decorative tech bracket elements -->
   <g transform="translate(750, 100)" text-anchor="end" opacity="0.15">
-    <text x="0" y="-30" font-family="monospace" font-size="12" fill="#ffffff">&lt;code&gt;</text>
-    <text x="0" y="0" font-family="monospace" font-size="12" fill="#ffffff">&lt;design&gt;</text>
-    <text x="0" y="30" font-family="monospace" font-size="12" fill="#ffffff">&lt;create&gt;</text>
+    <text x="0" y="-30" font-family="monospace" font-size="12" fill="#ffffff">{ code }</text>
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#ffffff">{ design }</text>
+    <text x="0" y="30" font-family="monospace" font-size="12" fill="#ffffff">{ create }</text>
   </g>
 </svg>
