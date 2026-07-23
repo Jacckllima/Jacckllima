@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Jacckllima/Jacckllima/main/header-banner.svg" alt="Jaqueline Lima Banner" width="100%"/>
+  <img src="header-banner.svg" alt="Jaqueline Lima" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Dispon%C3%ADvel%20para%20Est%C3%A1gio%20%2F%20J%C3%BAnior-ff00aa?style=for-the-badge&logo=rocket&logoColor=white" alt="Status Badge"/>
-  <img src="https://img.shields.io/badge/Forma%C3%A7%C3%A3o-Engenharia%20de%20Software-8833ff?style=for-the-badge&logo=education&logoColor=white" alt="Education Badge"/>
-  <img src="https://img.shields.io/badge/Institui%C3%A7%C3%A3o-Alpha%20EdTech-00d2ff?style=for-the-badge&logo=codeforces&logoColor=white" alt="Institution Badge"/>
+  <img src="https://img.shields.io/badge/Status-Estágio_/_Júnior-ff00aa?style=for-the-badge" alt="Status Badge"/>
+  <img src="https://img.shields.io/badge/Formação-Engenharia_de_Software-8833ff?style=for-the-badge" alt="Education Badge"/>
+  <img src="https://img.shields.io/badge/Instituição-Alpha_EdTech-00d2ff?style=for-the-badge" alt="Institution Badge"/>
 </div>
 
 ---
@@ -51,19 +51,6 @@ Atualmente participo da formação técnica da **Alpha EdTech**, consolidando co
     </td>
   </tr>
 </table>
-
----
-
-### 📈 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jacckllima&show_icons=true&theme=radial&bg_color=090a0f&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="General Stats" height="150" style="margin: 5px;"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jacckllima&layout=compact&theme=radial&bg_color=090a0f&title_color=ff00aa&text_color=ffffff&icon_color=8833ff&border_color=8833ff" alt="Top Languages" height="150" style="margin: 5px;"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jacckllima&theme=radial&background=090a0f&ring=ff00aa&fire=ff00aa&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=8833ff&sideLabels=8833ff&dates=a0a0c0&border=8833ff" alt="GitHub Streak" height="150" style="margin: 5px;"/>
-</div>
 
 ---
 
